@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>marioaviles</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://marioaviles.com/"/>
+  <updated>2017-10-12T04:23:09.421Z</updated>
+  <id>http://marioaviles.com/</id>
+  
+  <author>
+    <name>Mario Aviles</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Simple to-do list for vim</title>
+    <link href="http://marioaviles.com/2017/10/11/hello-world/"/>
+    <id>http://marioaviles.com/2017/10/11/hello-world/</id>
+    <published>2017-10-12T04:23:09.425Z</published>
+    <updated>2017-10-12T04:23:09.421Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Quick-Tip-Manage-a-to-do-list-file-in-vim"><a href="#Quick-Tip-Manage-a-to-do-list-file-in-vim" class="headerlink" title="Quick Tip: Manage a to-do list file in vim"></a>Quick Tip: Manage a to-do list file in vim</h1><p>Many times while using vim I needed to write down an idea, note or task quickly. I used to create a temporary file, but it was inefficient while working on many projects. I used to forget the file location or name. So that, I created a to-do list file (I called so because most of the items were things to do or review ) which I can easily call by typing :Todo in vim, edit it and continue working.</p><p>You can also create a simple one by adding the line below in your <em>vimrc</em> file.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">command Todo :e ~/todo.txt</div></pre></td></tr></table></figure><p>Notice that it is important to use absolute path for your file. You can create as many files as you like of course or even add a file synced by services like Dropbox.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Quick-Tip-Manage-a-to-do-list-file-in-vim&quot;&gt;&lt;a href=&quot;#Quick-Tip-Manage-a-to-do-list-file-in-vim&quot; class=&quot;headerlink&quot; title=&quot;Quick Tip:
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
